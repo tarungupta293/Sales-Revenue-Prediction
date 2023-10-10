@@ -155,7 +155,7 @@ def read_root():
 # In[ ]:
 
 
-@app.get("/predict_revenue")
+@app.get("/forecast_revenue_next_7_days")
 def forecast_revenue_next_7_days():
     return forecast
 
